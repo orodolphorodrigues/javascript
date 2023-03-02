@@ -29,14 +29,27 @@ console.log(senhaUsuario)
 // senhaUsuario = 'mudei'
 // console.log(senhaUsuario)
 
-var nomeEx = 'Rodolpho';
-var idadeEx =  28;
-var comidaFav;
-comidaFav = 'Macarrao com carne moida';
-var variavel1,
-    variavel2,
-    variavel3,
-    variavel4,
-    variavel5;
+//TIPOS DE DADOS
+var nomeTeste = 'Rodolpho';
+let numTeste = 88;
+console.log(typeof nomeTeste, nomeTeste, typeof numTeste, numTeste)
 
-console.log(nomeEx, idadeEx, comidaFav,variavel1, variavel2, variavel3, variavel4, variavel5)
+//soma de variaveis
+var gols = 1000;
+var jogador = 'Romario';
+var frase = 'O jogador ' + jogador + ' fez ' + gols + ' em sua carreira '
+console.log(frase) 
+
+//template string
+var frase2 = `Romario fez ${gols} gols`
+console.log(frase2)
+var frase2 = `Romario fez ${gols * 2} gols` //multiplicando a stirng do template
+console.log(frase2)
+
+//como mostrar caractere com funcao no codigo
+var fraseTeste = 'Esse e o \"melhor\" jogo do mundo';
+console.log(fraseTeste)
+
+//e possivel por a string direto no console.log sem declarar antes como variavel
+console.log('teste de impressao direta no console')
+
