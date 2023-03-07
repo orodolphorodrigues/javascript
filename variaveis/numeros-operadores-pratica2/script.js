@@ -30,3 +30,32 @@ console.log('Divisao de string e numero', divisaoString)
 
 var testeNan = 'aqui tem 100' + 10;
 console.log(testeNan)
+
+// Qual o resultado da seguinte expressão?
+var totalEx = 10 + 5 * 2 / 2 + 20;
+console.log(totalEx)
+
+// Crie duas expressões que retornem NaN
+var nunReturn = '115';
+var unidade = 'kg'
+var peso = nunReturn + unidade;
+console.log(peso)
+var nanReturn = peso / 2;
+console.log(nanReturn)
+
+// Somar a string '200' com o número 50 e retornar 250
+var num1 = '200'
+var num2 = 50
+var somaNum = parseInt(num1) + num2;
+console.log(somaNum)
+// Incremente o número 5 e retorne o seu valor incrementado
+var x = 5;
+console.log(++x)
+// Como dividir o peso por 2?
+var numero = '80';
+var unidade = 'kg';
+var peso = numero + unidade; // '80kg'
+//var pesoPorDois = peso / 2; // NaN (Not a Number)
+
+var pesoPorDois = parseInt(numero) / 2 + unidade;
+console.log(pesoPorDois)
